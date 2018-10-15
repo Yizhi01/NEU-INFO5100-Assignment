@@ -1,5 +1,5 @@
 package moody;
-
+// score 5/5
 public class PsychiatristObject {
 	//asks a moody object about its mood
 	public void examine(MoodyObject moodyObject) {
