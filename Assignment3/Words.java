@@ -1,5 +1,6 @@
 package reverse;
-
+// socre 1/2
+// your answer is "The sky is blue ", need you remove last space in return 
 public class Words {
 	public static String reverse(String s) {
 		String [] temp = s.split(" ");
