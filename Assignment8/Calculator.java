@@ -15,7 +15,7 @@ import javax.swing.JTextField;
 public class Calculator extends JFrame implements ActionListener{
 	private final String[] s = {
 			"7", "8", "9", "/",
-			"4", "5", "6", "¡Á",
+			"4", "5", "6", "Ã—",
 			"1", "2", "3", "-",
 			".", "0", "=", "+"};
 	
@@ -101,7 +101,7 @@ public class Calculator extends JFrame implements ActionListener{
 		if(operator == "-") {
 			number -= input;
 		}
-		if(operator == "¡Á") {
+		if(operator == "Ã—") {
 			number *= input;
 		}
 		if(operator == "/") {
